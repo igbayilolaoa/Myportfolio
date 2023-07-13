@@ -1,3 +1,20 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+
 .navlinks{
   width: 25%;
 }
@@ -13,6 +30,16 @@
 
 nav{
   background-color: rgb(8,103,136);
+  width: 100%;
+  right: 0;
+  height: 10vh;
+  color: white;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7%;
 }
 
  nav .home{
